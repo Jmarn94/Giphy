@@ -32,7 +32,7 @@ $(document).ready(function () {
 
     function displayInfo() {
         var itemName = $(this).attr("data-name");
-        var queryURL = "https://api.giphy.com/v1/gifs/search?q=sports+" + itemName + "&rating=g&limit=10&api_key=qjFxu5atMh8ac6HoyhWZX6FyzvgyMnTD";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=+" + itemName + "&rating=g&limit=10&api_key=qjFxu5atMh8ac6HoyhWZX6FyzvgyMnTD";
         $("#mainimages").empty();
 
         $.ajax({
